@@ -39,8 +39,7 @@ for i in range(lungime):
 	parole = list()
 
 	for parolaCurenta in paroleActuale:
-		a = genereazaLaIndexul(parolaCurenta, caractereFolosite, i)
-		parole += a
+		parole += genereazaLaIndexul(parolaCurenta, caractereFolosite, i)
 
 	paroleActuale = parole
 
