@@ -44,7 +44,7 @@ for i in range(lungime):
 
 	paroleActuale = parole
 
-f = open("p.txt", "a")
+f = open("parole.txt", "a")
 for parola in paroleActuale:
 	f.write(parola + "\n")
 f.close()
