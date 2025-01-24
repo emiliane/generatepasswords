@@ -1,12 +1,9 @@
-# Python3 code
-
 lungime = 4
 
 caractereMici = ''.join(chr(ord('a')+i) for i in range(26))
 caractereMari = ''.join(chr(ord('A')+i) for i in range(26))
 cifre = ''.join(chr(ord('0')+i) for i in range(10))
 
-# print result
 print("The characters used!")
 print("The string after construction: " + str(caractereMici))
 print("The string after construction: " + str(caractereMari))
