@@ -33,8 +33,6 @@ def genereazaLaIndexul(parolaSablon, caractere, index):
 		a.append(parola)
 	return a
 
-toate = list()
-
 print("Automat")
 
 paroleActuale = list()
