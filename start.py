@@ -30,7 +30,7 @@ def genereazaLaIndexul(parolaSablon, caractere, index):
 		a.append(parola)
 	return a
 
-print("Automat")
+print("Automat!")
 
 paroleActuale = list()
 paroleActuale.append(parolaDeInceput)
