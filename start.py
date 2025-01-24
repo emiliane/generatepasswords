@@ -43,7 +43,10 @@ for i in range(lungime):
 
 	paroleActuale = parole
 
-f = open("parole.txt", "a")
+import datetime
+now = str(datetime.datetime.now())
+
+f = open("Parole " + now + ".txt", "a")
 for parola in paroleActuale:
 	f.write(parola + "\n")
 f.close()
