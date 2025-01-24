@@ -1,8 +1,8 @@
 lungime = 4
 
-caractereMici = ''.join(chr(ord('a')+i) for i in range(26))
-caractereMari = ''.join(chr(ord('A')+i) for i in range(26))
-cifre = ''.join(chr(ord('0')+i) for i in range(10))
+caractereMici = ''.join(chr(ord('a') + i) for i in range(26))
+caractereMari = ''.join(chr(ord('A') + i) for i in range(26))
+cifre = ''.join(chr(ord('0') + i) for i in range(10))
 
 print("The characters used!")
 print("The string after construction: " + str(caractereMici))
@@ -39,7 +39,7 @@ for i in range(lungime):
 	parole = list()
 
 	for parolaCurenta in paroleActuale:
-		parole += genereazaLaIndexul(parolaCurenta, caractereFolosite, i)
+		parole = parole + genereazaLaIndexul(parolaCurenta, caractereFolosite, i)
 
 	paroleActuale = parole
 
